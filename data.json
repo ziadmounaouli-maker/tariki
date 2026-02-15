@@ -1,0 +1,164 @@
+{
+  "trips": {
+    "go": {
+      "trip1": {
+        "time": "05:30",
+        "driver": "عبدالله",
+        "company": "",
+        "phone": "0668347349"
+      },
+      "trip2": {
+        "time": "06:45",
+        "driver": "مسعود",
+        "company": "rahlaoui",
+        "phone": "0671562720"
+      },
+      "trip3": {
+        "time": "07:15",
+        "driver": "وليد عين الناقة",
+        "company": "rahlaoui",
+        "phone": "0671531521"
+      },
+      "trip4": {
+        "time": "07:45",
+        "driver": "غاني",
+        "company": "imsbridan",
+        "phone": "0662181772"
+      },
+      "trip5": {
+        "time": "08:15",
+        "driver": "نابولي",
+        "company": "rahlaoui",
+        "phone": "0671439266"
+      },
+      "trip6": {
+        "time": "09:00",
+        "driver": "رمضان",
+        "company": "mehdi",
+        "phone": "0671999403"
+      },
+      "trip7": {
+        "time": "09:30",
+        "driver": "حما",
+        "company": "chrif",
+        "phone": "0663363332"
+      },
+      "trip8": {
+        "time": "10:00",
+        "driver": "وليد",
+        "company": "rahlaoui",
+        "phone": "0671531521"
+      },
+      "trip9": {
+        "time": "10:30",
+        "driver": "عبدالله",
+        "company": "",
+        "phone": "0668347349"
+      },
+      "trip10": {
+        "time": "11:00",
+        "driver": "مسعود",
+        "company": "rahlaoui",
+        "phone": "0671562720"
+      },
+      "trip11": {
+        "time": "11:30",
+        "driver": "مصطفى فراجي",
+        "company": "chrif",
+        "phone": "0671378259"
+      },
+      "trip12": {
+        "time": "12:00",
+        "driver": "غاني",
+        "company": "imsbridan",
+        "phone": "0662181772"
+      },
+      "trip13": {
+        "time": "12:30",
+        "driver": "نابولي",
+        "company": "rahlaoui",
+        "phone": "0671439266"
+      }
+    },
+    "back": {
+      "trip1": {
+        "time": "06:15",
+        "driver": "عبدالله",
+        "company": "",
+        "phone": "0668347349"
+      },
+      "trip2": {
+        "time": "06:45",
+        "driver": "مسعود",
+        "company": "rahlaoui",
+        "phone": "0671562720"
+      },
+      "trip3": {
+        "time": "07:15",
+        "driver": "وليد عين الناقة",
+        "company": "rahlaoui",
+        "phone": "0671531521"
+      },
+      "trip4": {
+        "time": "07:45",
+        "driver": "غاني",
+        "company": "imsbridan",
+        "phone": "0662181772"
+      },
+      "trip5": {
+        "time": "08:15",
+        "driver": "نابولي",
+        "company": "rahlaoui",
+        "phone": "0671439266"
+      },
+      "trip6": {
+        "time": "09:00",
+        "driver": "رمضان",
+        "company": "mehdi",
+        "phone": "0671999403"
+      },
+      "trip7": {
+        "time": "09:30",
+        "driver": "حما",
+        "company": "chrif",
+        "phone": "0663363332"
+      },
+      "trip8": {
+        "time": "10:00",
+        "driver": "وليد",
+        "company": "rahlaoui",
+        "phone": "0671531521"
+      },
+      "trip9": {
+        "time": "10:30",
+        "driver": "عبدالله",
+        "company": "",
+        "phone": "0668347349"
+      },
+      "trip10": {
+        "time": "11:00",
+        "driver": "مسعود",
+        "company": "rahlaoui",
+        "phone": "0671562720"
+      },
+      "trip11": {
+        "time": "11:30",
+        "driver": "مصطفى فراجي",
+        "company": "chrif",
+        "phone": "0671378259"
+      },
+      "trip12": {
+        "time": "12:00",
+        "driver": "غاني",
+        "company": "imsbridan",
+        "phone": "0662181772"
+      },
+      "trip13": {
+        "time": "12:30",
+        "driver": "نابولي",
+        "company": "rahlaoui",
+        "phone": "0671439266"
+      }
+    }
+  }
+}

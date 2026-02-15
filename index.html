@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f2027" />
+  <title>برنامج الرحلات الذكي</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div>
+        <p class="badge">نسخة محسّنة ⚡</p>
+        <h1>لوحة الرحلات المباشرة</h1>
+        <p id="liveClock" class="sub">--:--</p>
+        <div class="owner-row">
+          <span class="owner-pill">صاحب الموقع: <strong id="ownerName">Ziad Mounaouli</strong></span>
+        </div>
+      </div>
+      <button id="darkToggle" aria-label="تبديل الوضع الداكن">🌙</button>
+    </div>
+  </header>
+
+  <section class="controls glass">
+    <div class="direction-switch" role="tablist" aria-label="اتجاه الرحلات">
+      <button class="dir-btn active" id="goBtn" type="button">مزيرعة ← بسكرة</button>
+      <button class="dir-btn" id="backBtn" type="button">بسكرة ← مزيرعة</button>
+    </div>
+
+    <div id="alertBox" class="alert hidden" role="status" aria-live="polite"></div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="ابحث باسم السائق أو المؤسسة" />
+      <button id="searchBtn" type="button">بحث</button>
+      <button id="resetBtn" type="button">إعادة</button>
+    </div>
+
+    <div id="companyFilters" class="company-filters"></div>
+
+    <div class="meta">
+      <div class="chip">العدد الكلي: <span id="countAll">0</span></div>
+      <div class="chip">المتبقي اليوم: <span id="countUpcoming">0</span></div>
+      <div class="chip">القادمة بعد: <span id="nextIn">--</span></div>
+    </div>
+
+    <div class="next-actions" id="nextActions">
+      <button id="copyNextBtn" class="small-btn" type="button">نسخ الرحلة القادمة</button>
+      <a id="shareWhatsAppBtn" class="small-btn" target="_blank" rel="noopener noreferrer" href="#">مشاركة عبر واتساب</a>
+    </div>
+  </section>
+
+  <section id="tripContainer" class="trips"></section>
+
+  <footer class="site-footer">
+    يمكنكم مراسلتنا على واتساب على الرقم التالي <a href="tel:0798615793">0798615793</a> المطور
+  </footer>
+
+  <template id="tripTemplate">
+    <article class="trip-card">
+      <div class="trip-top">
+        <div class="trip-time"></div>
+        <span class="status"></span>
+      </div>
+      <h3 class="driver"></h3>
+      <div class="company-row"><img class="company-logo hidden" alt="شعار المؤسسة" /><p class="company"></p></div>
+      <div class="actions"></div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>

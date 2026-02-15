@@ -1,0 +1,25 @@
+{
+  "name": "برنامج الرحلات الذكي",
+  "short_name": "الرحلات",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0f2027",
+  "theme_color": "#0f2027",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "assets/logos/tariki.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logos/tariki.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg",
+      "purpose": "any maskable"
+    }
+  ]
+}
